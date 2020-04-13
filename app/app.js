@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-const port = process.env.PORT || 3001; // port番号を指定
+const port = process.env.PORT || 8080; // port番号を指定
 
 // GET http://localhost:3000/api/v1/
 app.get('/v1/', (req, res) => {

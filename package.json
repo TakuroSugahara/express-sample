@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node app/app.js",
-    "dev": "nodemon app/app.js",
+    "dev": "docker-compose up",
+    "watch": "nodemon app/app.js",
     "test": "test",
-    "deploy": "gcloud app deploy --project sample-project-ts app.yaml",
+    "deploy": "gcloud app deploy --project sample-project-ts app.yaml"
   },
   "author": "TakuroSugahara",
   "license": "ISC",
