@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app/app.js",
+    "start": "node app/app.js",
+    "dev": "nodemon app/app.js",
     "test": "test"
   },
   "author": "TakuroSugahara",
