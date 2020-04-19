@@ -1,6 +1,6 @@
 {
   "name": "express-api",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "dev": "docker-compose up",
     "watch": "nodemon app/app.js",
     "test": "test",
-    "deploy": "gcloud app deploy --project sample-project-ts app.yaml"
+    "deploy": "gcloud beta app deploy --project sample-project-ts app.yaml"
   },
   "author": "TakuroSugahara",
   "license": "ISC",
@@ -17,7 +17,8 @@
     "express": "^4.17.1",
     "moment": "^2.24.0",
     "mongodb": "^3.5.5",
-    "mongoose": "^5.9.7"
+    "mongoose": "^5.9.7",
+    "pg": "^8.0.2"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
