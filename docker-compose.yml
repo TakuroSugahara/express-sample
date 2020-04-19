@@ -16,6 +16,8 @@ services:
     ports:
       - 8081:8080
     tty: true
+    links:
+      - db
   db:
     image: postgres:alpine
     container_name: test-db
