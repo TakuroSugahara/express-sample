@@ -27,4 +27,4 @@ handlers:
     secure: always
 
 vpc_access_connector:
-  name: 'projects/sample-project-ts/locations/asia-northeast1/connectors/server-less-vpc-ts'
+  name: 'projects/sample-project-ts/locations/asia-northeast1/connectors/test-connecter'
